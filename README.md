@@ -1,2 +1,2 @@
-# ferramentas
-Meus algoritmos classicos. Ferramentas básicas
+# Ferramentas
+My classics algorithms, and programming exercices.
