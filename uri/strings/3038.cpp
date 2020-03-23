@@ -1,8 +1,11 @@
+// Encrypted Christmas Letter
+
 #include <iostream>
 #include <map>
 using namespace std;
 
 int main(){
+	// map initialization
 	map <char,char> table = {{'@', 'a'}, {'&', 'e'}, {'!', 'i'}, {'*', 'o'}, {'#', 'u'}};
 	string input;
 
@@ -15,6 +18,6 @@ int main(){
 		}
 		cout << endl;
 	}
-	
+		
 	return 0;
 }
