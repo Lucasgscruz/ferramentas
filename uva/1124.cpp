@@ -1,16 +1,12 @@
-#include <iostream>
+#include <cstdio>
 #include <string>
-
+#include <iostream>
 using namespace std;
 
-int main()
-{
-	char simbol;
+int main() {
+	string str;
 
-	while(!cin.eof())
-	{
-		cin.get(simbol);
-		cout << simbol;
-	}
+	while (getline(cin, str))
+		cout << str << endl;
 	return 0;
 }
